@@ -142,3 +142,35 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.participants-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  color: #666;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0;
+  font-size: 0.9em;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #dc3545;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.delete-icon:hover {
+  color: #c82333;
+}
